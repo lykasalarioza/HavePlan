@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.salarioza.haveplanui.AddNote"
+    android:background="@drawable/yellow">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit or add notes!"
+        android:textSize="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:fontFamily="cursive"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/titlenote"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Your Title"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/descr"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/titlenote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="335dp"
+        android:src="@drawable/plus"
+        android:background="#00000"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HavePlan!</string>
+    <string-array name="Priority">
+        <item>Today</item>
+        <item>This Week</item>
+        <item>Next Week</item>
+    </string-array>
+</resources>

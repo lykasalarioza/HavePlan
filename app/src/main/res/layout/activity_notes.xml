@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.salarioza.haveplanui.Notes"
+    android:background="@drawable/rainbow">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:layout_marginTop="30dp"
+        android:text="Take note!"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/border"
+        android:text="Food parks in QC"
+        android:textSize="25dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/border"
+        android:text="Veritas credentials"
+        android:textSize="25dp"
+        android:textColor="#000"
+
+        />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/border"
+        android:text="Kdrama List"
+        android:textSize="25dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border"
+        />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/plus"
+        android:background="#"
+
+        />
+</RelativeLayout>

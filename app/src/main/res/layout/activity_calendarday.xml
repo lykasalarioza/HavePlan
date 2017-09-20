@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.salarioza.haveplanui.calendarday"
+    android:background="@drawable/green">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August 29"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="45dp"
+        android:fontFamily="serif"
+        />
+    <CheckBox
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Arvin's Bday Party"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        android:text="6pm-10pm"
+        android:textSize="25dp"
+        />
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toRightOf="@+id/txt"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/dustbin"
+        />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="335dp"
+        android:src="@drawable/plus"
+        android:background="#0000"
+        />
+</RelativeLayout>

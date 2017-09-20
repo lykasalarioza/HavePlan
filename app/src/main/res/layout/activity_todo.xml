@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.salarioza.haveplanui.Todo"
+    android:background="@drawable/blueyellow">
+
+    <TextView
+        android:id="@+id/todolist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="Get it done!"
+        android:textColor="#000"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/todaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:text="Today:"
+        android:textSize="30dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/todaylist"
+        android:textSize="20dp"
+        android:text="Grocery @ 3pm"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/thisweeklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:text="This Week:"
+        android:textSize="30dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thisweeklist"
+        android:textSize="20dp"
+        android:text="Buy gift"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/nextweeklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:text="Next Week:"
+        android:textSize="30dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nextweeklist"
+        android:textSize="20dp"
+        android:text="115 assignment"
+        android:layout_marginLeft="40dp"/>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/plus"
+        android:background="#0000"
+        />
+
+</RelativeLayout>

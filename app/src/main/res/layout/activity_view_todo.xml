@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.salarioza.haveplanui.ViewTodo"
+    android:background="@drawable/pink">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:text="Assignments"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="ICS 115"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+    <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    android:textSize="30dp"
+    android:layout_marginLeft="30dp"
+    android:text="THESIS"
+        android:fontFamily="sans-serif-smallcaps"
+    />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="IT 205"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="335dp"
+        android:src="@drawable/dustbin"
+        android:background="#0000"
+        />
+
+</RelativeLayout>
